@@ -5,12 +5,9 @@ let note="";
 let input_area=document.getElementById("insert_note");
 input_area.addEventListener('change',(e)=>{
     note=e.target.value;
-    console.log(note);
 })
-// input_area.addEventListener('keypress',(e)=>{
-//     note=e.target.value;
-//     console.log(note);
-// })
+
+
 //To access the show_notes div easily.
 const show=document.getElementById("show_notes");
 
